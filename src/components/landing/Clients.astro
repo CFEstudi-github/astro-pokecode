@@ -1,0 +1,99 @@
+---
+import clients from "../../config/clients.json";
+---
+
+<section id="clients" class="modul clients">
+	<!-- Contingut del modul -->
+	<div class="modul__grid">
+		<div class="clients__img"><img src={clients.imatgePagina} alt="" /></div>
+		<header class="modul__header clients__header">
+			<h2>{clients.titolPagina}</h2>
+			<p>
+				{clients.textPagina}
+				We collaborate with <span class="destecat--negatiu">public institutions</span>,
+				<span class="destecat--negatiu">cooperatives</span>,
+				<span class="destecat--negatiu">social movements</span> and other
+				<span class="destecat--negatiu">community organizations</span>.
+			</p>
+		</header>
+		<div class="clients__logos">
+			<div class="clients__logos__container">
+				{clients.clientsPagina.map((client) => <img src={client.imatge} title={client.nom} alt={client.nom} />)}
+			</div>
+		</div>
+		<div class="modul__header clients__header-2">
+			<p>{clients.destPagina}</p>
+		</div>
+		<div id="slider-clients" class="modul__content--slider clients__slider">
+			<!-- Add Arrows & Pagination -->
+			<div class="swiper-navigation">
+				<div class="swiper-pagination"></div>
+				<div class="swiper-button-prev">
+					<span class="icon medium icon-arrow--left"></span><span class="icon small icon-arrow--left"></span>
+				</div>
+				<div class="swiper-button-next">
+					<span class="icon medium icon-arrow--right"></span><span class="icon small icon-arrow--right"></span>
+				</div>
+			</div>
+			<!-- Cards -->
+			<div class="cards-clients swiper-wrapper">
+				{
+					clients.comentarisPagina.map((comentari) => (
+						<div class="card-comentari swiper-slide">
+							<div class="card-comentari__avatar">
+								<div class="card-comentari__imatge">
+									<img src={comentari.logo} alt={comentari.carrec} />
+								</div>
+								<div class="card-comentari__box">
+									<h3 class="card-comentari__nom">{comentari.nom}</h3>
+									<h4 class="card-comentari__carrec">{comentari.carrec}</h4>
+								</div>
+							</div>
+							<div class="card-comentari__text">
+								<p>{comentari.text}</p>
+							</div>
+						</div>
+					))
+				}
+			</div>
+		</div>
+	</div>
+</section>
+<script>
+	window.addEventListener("load", () => {
+		const swiper = new Swiper("#slider-clients", {
+			autoplay: false,
+			loop: false,
+			pagination: {
+				el: ".swiper-pagination",
+				type: "fraction",
+			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+			breakpoints: {
+				320: {
+					slidesPerView: 1,
+					spaceBetween: 16,
+				},
+				768: {
+					slidesPerView: 1,
+					spaceBetween: 32,
+				},
+				1024: {
+					slidesPerView: 1,
+					spaceBetween: 32,
+				},
+				1440: {
+					slidesPerView: 1,
+					spaceBetween: 32,
+				},
+				1920: {
+					slidesPerView: 2,
+					spaceBetween: 32,
+				},
+			},
+		});
+	});
+</script>

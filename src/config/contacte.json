@@ -1,0 +1,15 @@
+{
+	"direccio": "Carrer Concepció Arenal<br/> 165 08027 Barcelona",
+	"telefon": "93 452 67 45",
+	"email": "info@pokecode.net",
+	"xarxes": [
+		{
+			"nom": "github",
+			"link": "https://github.com/openpoke"
+		},
+		{
+			"nom": "decidim",
+			"link": "https://meta.decidim.org/profiles/Pokecode/members?locale=ca"
+		}
+	]
+}

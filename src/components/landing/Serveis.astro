@@ -1,0 +1,121 @@
+---
+import serveis from "../../config/serveis.json";
+---
+
+<section id="serveis" class="modul serveis">
+	<!-- Contingut del modul -->
+	<div class="modul__grid">
+		<header class="modul__header">
+			<h2>{serveis.titolPagina}</h2>
+			<p>
+				{serveis.textPagina}
+				Creem aplicacions basades en el programari
+				<span class="destecat">Decidim<span class="asterisc">*</span></span> i
+				<span class="destecat">Ruby on Rails</span>. Les nostres especialitats són:
+			</p>
+		</header>
+		<p class="small">
+			{serveis.destPagina}
+			<span class="asterisc">*</span> El 3% de cada pressupost per serveis Decidim es dona a l’Associació Decidim pel manteniment
+			oficial del projecte.
+		</p>
+		<div
+			id="slider-serveis"
+			class="modul__content--slider swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden"
+		>
+			<!-- Add Arrows & Pagination -->
+			<div class="swiper-navigation">
+				<div class="swiper-pagination swiper-pagination-fraction swiper-pagination-horizontal">
+					<span class="swiper-pagination-current">1</span> / <span class="swiper-pagination-total">4</span>
+				</div>
+				<div
+					class="swiper-button-prev swiper-button-disabled"
+					tabindex="-1"
+					role="button"
+					aria-label="Previous slide"
+					aria-controls="swiper-wrapper-c7777a9e4e82ad9f"
+					aria-disabled="true"
+				>
+					<span class="icon medium icon-arrow--left"></span><span class="icon small icon-arrow--left"></span>
+				</div>
+				<div
+					class="swiper-button-next"
+					tabindex="0"
+					role="button"
+					aria-label="Next slide"
+					aria-controls="swiper-wrapper-c7777a9e4e82ad9f"
+					aria-disabled="false"
+				>
+					<span class="icon medium icon-arrow--right"></span><span class="icon small icon-arrow--right"></span>
+				</div>
+			</div>
+			<!-- Cards -->
+			<div
+				class="cards serveis swiper-wrapper"
+				id="swiper-wrapper-c7777a9e4e82ad9f"
+				aria-live="polite"
+				style="transform: translate3d(0px, 0px, 0px);"
+			>
+				<!-- card -->
+
+				{
+					serveis.serveisPagina.map((servei) => (
+						<div
+							class="card swiper-slide swiper-slide-active"
+							role="group"
+							aria-label="1 / 6"
+							style="width: 420.333px; margin-right: 32px;"
+						>
+							<div class="card__imatge">
+								<img src={servei.imatge} alt="" />
+							</div>
+
+							<h3 class="card__titol">{servei.titol}</h3>
+							<p class="card__text">{servei.text}</p>
+						</div>
+					))
+				}
+			</div>
+			<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+		</div>
+	</div>
+</section>
+
+<script>
+	window.addEventListener("load", () => {
+		const swiper = new Swiper("#slider-serveis", {
+			autoplay: false,
+			loop: false,
+			pagination: {
+				el: ".swiper-pagination",
+				type: "fraction",
+			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+			breakpoints: {
+				320: {
+					slidesPerView: 1,
+					spaceBetween: 16,
+				},
+				768: {
+					slidesPerView: 2,
+					spaceBetween: 32,
+				},
+				1024: {
+					slidesPerView: 3,
+					spaceBetween: 32,
+				},
+				1440: {
+					slidesPerView: 3,
+					spaceBetween: 32,
+				},
+				1920: {
+					slidesPerView: 4,
+					spaceBetween: 32,
+				},
+			},
+		});
+	});
+</script>

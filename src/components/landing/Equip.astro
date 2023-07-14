@@ -1,0 +1,49 @@
+---
+import equip from "../../config/equip.json";
+---
+
+<section id="equip" class="modul equip">
+	<!-- Contingut del modul -->
+	<div class="modul__grid">
+		<header class="modul__header equip__header">
+			<h2>{equip.titolPagina}</h2>
+			<p>{equip.textPagina}</p>
+			<p>Because there are people behind you who will help you with everything you need.</p>
+			<p>Check out our <span class="destecat">Pokecodex!</span></p>
+		</header>
+		<div class="equip__img"><img src={equip.imatgePagina} alt="" /></div>
+		<div class="modul__content equip__content">
+			{
+				equip.equipPagina.map((membre) => (
+					<div class="card-equip">
+						<div class="card-equip__box-level">
+							<div class="card-equip__num">{membre.num}</div>
+							<div class="card-equip__level">{membre.level}</div>
+						</div>
+						<div class="card-equip__img">
+							<img src={membre.imatge} title={membre.nom} alt={membre.nom} />
+						</div>
+						<div class="card-equip__box-dades">
+							<div class="card-equip__avatar">
+								<img src={membre.avatar} title={membre.nom} alt={membre.nom} />
+							</div>
+							<div class="card-equip__nom">{membre.nom}</div>
+							<div class="card-equip__carrec">{membre.carrec}</div>
+							<div class="card-equip__xarxes">
+								<a href={membre.xarxes[0].link} target="_blank">
+									<span class="icon icon-twitter" />
+								</a>
+								<a href={membre.xarxes[1].link} target="_blank">
+									<span class="icon icon-github" />
+								</a>
+								<a href={membre.xarxes[2].link} target="_blank">
+									<span class="icon icon-decidim-ico" />
+								</a>
+							</div>
+						</div>
+					</div>
+				))
+			}
+		</div>
+	</div>
+</section>

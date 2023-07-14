@@ -1,0 +1,16 @@
+{
+	"idiomes": [
+		{
+			"idiome": "Cat",
+			"menuItems": ["Serveis", "Clients", "Equip", "Contacte"]
+		},
+		{
+			"idiome": "Esp",
+			"menuItems": ["Serveis", "Clients", "Equip", "Contacte"]
+		},
+		{
+			"idiome": "Eng",
+			"menuItems": ["Serveis", "Clients", "Equip", "Contacte"]
+		}
+	]
+}

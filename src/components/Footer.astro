@@ -1,0 +1,32 @@
+---
+import contacte from "../config/contacte.json";
+---
+
+<footer id="contacte" class="modul footer">
+	<div class="modul__grid">
+		<div class="footer__logo"><span class="icon icon-pokecode"></span></div>
+		<p class="footer__adreca-1">{contacte.direccio}</p>
+		<p class="footer__adreca-2">{contacte.telefon} <br /><a href="mailto:{contacte.email}"> {contacte.email}</a></p>
+		<div class="footer__xarxes">
+			<p>Follow us:</p>
+			<ul>
+				{
+					contacte.xarxes.map((xarxa) => (
+						<li>
+							<a href={xarxa.link} target="_blank">
+								<span class="icon icon-github" />
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</div>
+		<div class="footer__legal">
+			<p>2023 PokeCode. Made with ❤️ by PokeCode</p>
+			<ul class="footer__legal-menu">
+				<li><a href="privacy_policy.htm">Privacy policy</a></li>
+				<li><a href="legal_notice.htm">Legal notice</a></li>
+			</ul>
+		</div>
+	</div>
+</footer>

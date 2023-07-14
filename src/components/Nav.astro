@@ -1,0 +1,53 @@
+---
+import Menu from "../config/menu.json";
+console.log(Menu);
+---
+
+<!-- Header -->
+<header id="masthead" class="site-header">
+	<!-- Logo -->
+	<div class="site-branding">
+		<a href="">
+			<div id="logo"><span class="icon icon-pokecode"></span></div>
+		</a>
+	</div>
+	<!-- ...Logo -->
+	<!-- Menu -->
+	<nav id="site-navigation" class="main-navigation">
+		<!-- Boto Burger -->
+		<button class="btn-burger menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+			<span class="icon icon-burger"></span><span class="icon icon-close"></span>
+		</button>
+		<!-- ...Boto Burger -->
+		<div id="container-menu" class="safe-area--mobile">
+			<!-- Menú -->
+			<ul id="primary-menu" class="navbar-nav nav-menu">
+				{
+					Menu.idiomes[0].menuItems.map((menuItems) => (
+						<li class="menu-item menu-item-type-post_type menu-item-object-page nav-item">
+							<a href="#" class="nav-link">
+								{menuItems}
+							</a>
+						</li>
+					))
+				}
+			</ul>
+			<!-- Idiome -->
+			<ul id="secundary-menu" class="navbar-nav nav-menu">
+				<li class="menu-item-has-children dropdown">
+					<span>{Menu.idiomes[0].idiome}</span>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="eng.htm">{Menu.idiomes[1].idiome}</a>
+						</li>
+						<li>
+							<a href="esp.htm">{Menu.idiomes[2].idiome}</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- ...Menu -->
+</header>
+<!-- ...Header -->

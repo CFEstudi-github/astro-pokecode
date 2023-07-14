@@ -1,0 +1,80 @@
+{
+	"titolPagina": "Clients",
+	"imatgePagina": "imgs/clients.png",
+	"textPagina": "Col·laborem amb institucions públiques, cooperatives, moviments socials i altres organizations amb comunitat.",
+	"destPagina": "Els nostres clients diuen de nosaltres...",
+	"clientsPagina": [
+		{
+			"imatge": "imgs/clients/ajuntament_hospitalet.svg",
+			"nom": "Ajuntament de l'Hospitalet"
+		},
+		{
+			"imatge": "imgs/clients/getxo.svg",
+			"nom": "Getxo"
+		},
+		{
+			"imatge": "imgs/clients/ajuntament_olesa.svg",
+			"nom": "Ajuntament d'Olesa de Montserrat"
+		},
+		{
+			"imatge": "imgs/clients/somenergia.svg",
+			"nom": "Som energia"
+		},
+		{
+			"imatge": "imgs/clients/statzofluzern.svg",
+			"nom": "Stadt of Luzern"
+		},
+		{
+			"imatge": "imgs/clients/coopcat.svg",
+			"nom": "Coopcat"
+		},
+		{
+			"imatge": "imgs/clients/colectic.svg",
+			"nom": "Colectic"
+		},
+		{
+			"imatge": "imgs/clients/decidim.svg",
+			"nom": "Decidim"
+		},
+		{
+			"imatge": "imgs/clients/pemb.svg",
+			"nom": "PEMB"
+		},
+		{
+			"imatge": "imgs/clients/forum.svg",
+			"nom": "Fòrum de la Juventut d'Andorra"
+		},
+		{
+			"imatge": "imgs/clients/green.svg",
+			"nom": "Green Party of Canada"
+		},
+		{
+			"imatge": "imgs/clients/opensource.svg",
+			"nom": "OpensourcePolitics"
+		},
+		{
+			"imatge": "imgs/clients/seidor.svg",
+			"nom": "Seidor Opentrends"
+		}
+	],
+	"comentarisPagina": [
+		{
+			"logo": "imgs/clients/getxo_color.svg",
+			"nom": "Pedro Goicolea",
+			"carrec": "Ayuntamiento de Getxo",
+			"text": "Text"
+		},
+		{
+			"logo": "imgs/clients/somenergia_color.svg",
+			"nom": "Mònica Gifreu",
+			"carrec": "Equip Som Energia",
+			"text": "Text"
+		},
+		{
+			"logo": "imgs/clients/stadtofluzern_color.svg",
+			"nom": "Nadja von Ballmoos",
+			"carrec": "Stadt of Luzern",
+			"text": "Text"
+		}
+	]
+}

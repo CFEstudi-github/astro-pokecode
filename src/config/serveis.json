@@ -1,0 +1,37 @@
+{
+	"titolPagina": "Serveis",
+	"textPagina": "Creem aplicacions basades en el programari Decidim* i Ruby on Rails. Les nostres especialitats són:",
+	"destPagina": "* El 3% de cada pressupost per serveis Decidim es dona a l’Associació Decidim pel manteniment oficial del projecte.",
+	"serveisPagina": [
+		{
+			"imatge": "imgs/installacio.png",
+			"titol": "Instal·lació àgil",
+			"text": "Garantim una instal·lació ràpida i segura en el nostre servidor o en el vostre allotjament. S’instal·la un entorn de test i un entorn de producció"
+		},
+		{
+			"imatge": "imgs/max_adaptacio.png",
+			"titol": "Adaptabilitat al màxim nivell",
+			"text": "Adaptem, millorem i desenvolupem el sistema de registre, la verificació i els mòduls de participació en funció de les necessitats de cada tipus d’organització"
+		},
+		{
+			"imatge": "imgs/experiencia.png",
+			"titol": "Experiencia únic",
+			"text": "El teu Decidim, la teva imatge. El teu Decidim, les teves prioritats. Amb la nostra metodologia Agile participaràs de l’evolució del projecte"
+		},
+		{
+			"imatge": "imgs/creadors.png",
+			"titol": "Creadors del Decidim Awesome",
+			"text": "La nostra prioritat sempre és fer Decidim més usable i donar més flexibilitat a l’administrador. La navalla suïssa en constant evolució que tot administrador de la plataforma necessita"
+		},
+		{
+			"imatge": "imgs/suport.png",
+			"titol": "Suport tècnic i consultoria personalitzada",
+			"text": "Els nostres valors són: treballar amb qualitat, tractar bé a l’equip i tractar bé al client. No ens agrada parlar amb vocabulari tècnic, però si ens encanten transformar els reptes polítics en solucions tecnològiques!"
+		},
+		{
+			"imatge": "imgs/comunitat.png",
+			"titol": "Comunitat internacional",
+			"text": "Benvinguda al codi obert! Compartim i cooperem amb altres organitzacions de la comunitat. Som impulsors de la xarxa internacional de proveïdors Decidim: DICE"
+		}
+	]
+}
