@@ -159,7 +159,7 @@ a:active {
 	content: "\e900";
 }
 
-.icon-decidim:before {
+.icon-decidim-logo:before {
 	content: "\e901";
 	color: #f33;
 }
@@ -192,7 +192,7 @@ a:active {
 	content: "\e908";
 }
 
-.icon-decidim-ico:before {
+.icon-decidim:before {
 	content: "\e909";
 }
 

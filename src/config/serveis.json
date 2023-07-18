@@ -1,7 +1,7 @@
 {
 	"titolPagina": "Serveis",
-	"textPagina": "Creem aplicacions basades en el programari Decidim* i Ruby on Rails. Les nostres especialitats són:",
-	"destPagina": "* El 3% de cada pressupost per serveis Decidim es dona a l’Associació Decidim pel manteniment oficial del projecte.",
+	"textPagina": "Creem aplicacions basades en el programari <span class='destecat'>Decidim<span class='asterisc'>*</span></span> i <span class='destecat'>Ruby on Rails</span>. Les nostres especialitats són:",
+	"destPagina": "<span class='asterisc'>*</span> El 3% de cada pressupost per serveis Decidim es dona a l’Associació Decidim pel manteniment oficial del projecte.",
 	"serveisPagina": [
 		{
 			"imatge": "imgs/installacio.png",

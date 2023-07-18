@@ -7,9 +7,7 @@ import equip from "../../config/equip.json";
 	<div class="modul__grid">
 		<header class="modul__header equip__header">
 			<h2>{equip.titolPagina}</h2>
-			<p>{equip.textPagina}</p>
-			<p>Because there are people behind you who will help you with everything you need.</p>
-			<p>Check out our <span class="destecat">Pokecodex!</span></p>
+			<p><Fragment set:html={equip.textPagina} /></p>
 		</header>
 		<div class="equip__img"><img src={equip.imatgePagina} alt="" /></div>
 		<div class="modul__content equip__content">

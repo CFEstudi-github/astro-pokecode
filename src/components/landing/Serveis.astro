@@ -8,16 +8,11 @@ import serveis from "../../config/serveis.json";
 		<header class="modul__header">
 			<h2>{serveis.titolPagina}</h2>
 			<p>
-				{serveis.textPagina}
-				Creem aplicacions basades en el programari
-				<span class="destecat">Decidim<span class="asterisc">*</span></span> i
-				<span class="destecat">Ruby on Rails</span>. Les nostres especialitats són:
+				<Fragment set:html={serveis.textPagina} />
 			</p>
 		</header>
 		<p class="small">
-			{serveis.destPagina}
-			<span class="asterisc">*</span> El 3% de cada pressupost per serveis Decidim es dona a l’Associació Decidim pel manteniment
-			oficial del projecte.
+			<Fragment set:html={serveis.destPagina} />
 		</p>
 		<div
 			id="slider-serveis"

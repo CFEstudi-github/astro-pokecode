@@ -1,7 +1,7 @@
 {
 	"titolPagina": "Clients",
 	"imatgePagina": "imgs/clients.png",
-	"textPagina": "Col·laborem amb institucions públiques, cooperatives, moviments socials i altres organizations amb comunitat.",
+	"textPagina": "Col·laborem amb <span class='destecat--negatiu'>institucions públiques</span>, <span class='destecat--negatiu'>cooperatives</span>, <span class='destecat--negatiu'>moviments socials</span> i altres <span class='destecat--negatiu'>organizations amb comunitat</span>.",
 	"destPagina": "Els nostres clients diuen de nosaltres...",
 	"clientsPagina": [
 		{
@@ -62,19 +62,25 @@
 			"logo": "imgs/clients/getxo_color.svg",
 			"nom": "Pedro Goicolea",
 			"carrec": "Ayuntamiento de Getxo",
-			"text": "Text"
+			"text": "<p>Ya va a cumplirse el segundo aniversario desde que el Ayuntamiento de Getxo se incorporó al universo Decidim, creando su página de participación <a href='https://zeugaz.getxo.eus/' target='_blank'>www.zeugaz.getxo.eus</a>. Y desde nuestros primeros pasos, antes de activar la página, Ivan y Pau fueron nuestros maestros Jedi. Nosotros, sus humildes padawans. Siempre amables, pendientes, disponibles y precisos. Guiándonos en un camino que desconocíamos. Pero… se fueron. Se fueron a volar por libre, a abrir su propia empresa. Les deseamos lo mejor y les dijimos que les fuera de maravilla y esas cosas que se dicen cuando echas a alguien de menos antes de que se vaya.</p><p>Solo decir que de nuevo estamos con los dos, en su nueva etapa de Pokecode. ¡Por algo será! Hemos vuelto con ellos y comprobamos que siguen igual de amables, pendientes, disponibles y precisos. Mucha suerte en vuestra nueva singladura.</p>"
 		},
 		{
 			"logo": "imgs/clients/somenergia_color.svg",
 			"nom": "Mònica Gifreu",
 			"carrec": "Equip Som Energia",
-			"text": "Text"
+			"text": "<p>A <b>Som Energia</b> treballem amb Pokecode, pel seu compromís en el desenvolupament del Decidim, com a proveïdor oficial, i per la confiança en la seva professionalitat, resultat de l'experiència compartida. El seu servei passa per un tracte pròxim, en el dia a dia, amb una forma de treball àgil i, en la mirada més llarga, sabem que disposa dels coneixements necessaris per contribuir que el Decidim sigui, cada cop més, una eina per les organitzacions.</p>"
 		},
 		{
 			"logo": "imgs/clients/stadtofluzern_color.svg",
 			"nom": "Nadja von Ballmoos",
 			"carrec": "Stadt of Luzern",
-			"text": "Text"
+			"text": "<p>M'agrada molt treballar amb l'Ivan i el Pau perquè actuen com a socis, no només com a contractistes. És de gran valor per a mi que comparteixin proactivament els seus coneixements sobre les nostres necessitats i, d'aquesta forma, demostren la seva profunda comprensió de Decidim.</p>"
+		},
+		{
+			"logo": "imgs/clients/green_color.svg",
+			"nom": "John Willson",
+			"carrec": "Co-President of the GPC Fund",
+			"text": "<p>As a telecoms product manager, I managed software development from teams based in the US, the UK, Germany, Israel and China. Pokecode consistently meets or surpasses the standards of those teams, delivering software reliably and responsibly; ahead of time, under budget and with clear accountable reporting. The caring, friendly attitude of the Pokecode team makes collaboration with them a joy and we consider our selection of them as a key factor in the success of the decidim project. We literally couldn't have done it without them.</p>"
 		}
 	]
 }
