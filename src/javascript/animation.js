@@ -1,3 +1,5 @@
+import gsap from "gsap";
+
 var tl_homeHero = gsap.timeline({ defaults: { autoAlpha: 0, duration: 0.5 } });
 
 function init() {

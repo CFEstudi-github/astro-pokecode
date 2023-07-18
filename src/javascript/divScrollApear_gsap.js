@@ -1,4 +1,5 @@
-//Scroll
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 // Registrar el plugin ScrollTrigger
 
