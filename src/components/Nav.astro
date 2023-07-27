@@ -4,11 +4,14 @@ console.log(Menu);
 ---
 
 <!-- Header -->
-<header id="masthead" class="site-header">
+<header
+	id="masthead"
+	class="absolute z-10 top-0 right-0 left-0 isolate flex justify-between w-full pt-11 pb-10 px-[4%] bg-yellow-500"
+>
 	<!-- Logo -->
-	<div class="site-branding">
+	<div class="site-branding z-10">
 		<a href="">
-			<div id="logo"><span class="icon icon-pokecode"></span></div>
+			<div id="logo" class="text-[2.5rem]"><span class="icon icon-pokecode"></span></div>
 		</a>
 	</div>
 	<!-- ...Logo -->
@@ -19,7 +22,7 @@ console.log(Menu);
 			<span class="icon icon-burger"></span><span class="icon icon-close"></span>
 		</button>
 		<!-- ...Boto Burger -->
-		<div id="container-menu" class="safe-area--mobile">
+		<div id="container-menu" class="safe-area--mobile flex justify-between">
 			<!-- Menú -->
 			<ul id="primary-menu" class="navbar-nav nav-menu">
 				{
