@@ -1,13 +1,15 @@
-<section class="home-hero" style="opacity: 1; visibility: inherit;">
-	<div class="home-hero__grid">
-		<div class="home-hero__text">
-			<h1>Solucions tècniques per requisits democràtics</h1>
+<section class="home-hero relative isolate w-full h-screen bg-primary overflow-hidden flex flex-col justify-center">
+	<div class="home-hero__grid h-full pt-16 px-[4%] grid grid-cols-12 gap-px-8">
+		<div class="home-hero__text col-span-5 flex items-center">
+			<h1 class="font-display text-[5rem] 2xl:text-8xl leading-none text-black">
+				Solucions tècniques per requisits democràtics
+			</h1>
 		</div>
-		<div class="home-hero__img">
-			<img src="imgs/portada.png" alt="" />
+		<div class="home-hero__img col-span-7 justify-self-center self-center mt-[-8vh]">
+			<img src="imgs/portada.png" alt="" class="w-full max-w-[90vh]" />
 		</div>
 	</div>
-	<a href="https://decidim.org/partners/" target="_blank">
+	<a href="https://decidim.org/partners/" target="_blank" class="hidden">
 		<div class="home-hero__banner">
 			<div class="big">1<sup>er</sup></div>
 			<p>Partner Oficial de</p>
@@ -15,3 +17,8 @@
 		</div>
 	</a>
 </section>
+
+<!-- 
+    grid-column: 6/-1;
+    justify-self: center;
+    align-self: center; -->
